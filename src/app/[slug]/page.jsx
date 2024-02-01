@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./singlePage.module.css";
 import Image from "next/image";
 import Menu from "@/components/Menu/Menu";
+import Comments from "@/components/comments/Comments";
 function SinglePage() {
   return (
     <div className={styles.container}>
@@ -54,7 +55,7 @@ function SinglePage() {
             </p>
           </div>
           <div className={styles.comment}>
-            {/* <Comments postSlug={slug} /> */}
+            <Comments />
           </div>
         </div>
         <Menu />
