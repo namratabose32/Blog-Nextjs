@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./comments.module.css";
 import Image from "next/image";
+import Link from "next/link";
 function Comments() {
   const status = "authenticated";
   const isLoading = "true";
